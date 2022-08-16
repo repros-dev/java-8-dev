@@ -7,4 +7,6 @@ RUN bash /repro/dist/setup
 
 USER repro
 
+RUN repro.require java-8-dev exports --maven
+
 CMD  /bin/bash -il
