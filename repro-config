@@ -2,6 +2,8 @@ REPRO_NAME=java-dev
 REPRO_DOCKER_ORG=cirss
 REPRO_IMAGE_TAG=latest
 
+#REPRO_LOGGING_LEVEL=trace
+
 image:                  build-image   ## 
 start:                  start-repro   ## 
 

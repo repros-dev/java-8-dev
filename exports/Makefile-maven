@@ -1,0 +1,16 @@
+
+compile:
+	mvn compile
+
+test:
+	mvn test
+
+package:
+	mvn package
+
+clean:
+	mvn clean
+
+#purge: clean
+#	rm -rf $(repro.trim_dir_name_for_module java-dev)/.m2
+

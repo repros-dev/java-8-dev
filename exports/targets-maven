@@ -1,0 +1,5 @@
+build-code: compile
+test-code: test
+package-code: package
+clean-code: clean
+purge-code: purge

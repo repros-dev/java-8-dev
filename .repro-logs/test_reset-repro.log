@@ -6,5 +6,16 @@ I MESG Resetting REPRO
 I MESG Resetting all modules
 I MESG Resetting the 'repro' module
 I MESG Re-initializing trim files for module 'repro'
-I MESG Resetting the REPRO target mapping file (/mnt/repro-template/.repro/repro-targets)
-I MESG Installing a default (empty) target mapping file to /mnt/repro-template/.repro/repro-targets
+I MESG Resetting the 'java-dev' module
+I MESG Re-initializing trim files for module 'java-dev'
+I MESG Copying /home/repro/repro-modules/java-dev-exports/Makefile-maven to the 'java-dev' trim directory (/mnt/java-dev/.java-dev)
+I MESG Ensuring other files listed in the 'java-dev' module trim manifest are in the module trim directory (/mnt/java-dev/.java-dev)
+I MESG Copying trim file settings.xml from /home/repro/repro-modules/java-dev-exports to /mnt/java-dev/.java-dev
+I MESG Copying trim file targets-maven from /home/repro/repro-modules/java-dev-exports to /mnt/java-dev/.java-dev
+I MESG Resetting the REPRO target mapping file (/mnt/java-dev/.repro/repro-targets)
+I MESG Installing a default (empty) target mapping file to /mnt/java-dev/.repro/repro-targets
+I MESG Mapping the 'java-dev:maven:compile' target to the REPRO 'build-code' target
+I MESG Mapping the 'java-dev:maven:test' target to the REPRO 'test-code' target
+I MESG Mapping the 'java-dev:maven:package' target to the REPRO 'package-code' target
+I MESG Mapping the 'java-dev:maven:clean' target to the REPRO 'clean-code' target
+I MESG Mapping the 'java-dev:maven:purge' target to the REPRO 'purge-code' target
