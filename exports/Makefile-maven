@@ -1,16 +1,16 @@
 
 compile:
-	mvn compile
+	cd ${REPRO_MNT}; mvn compile
 
 test:
-	mvn test
+	cd ${REPRO_MNT}; mvn test
 
 package:
-	mvn package
+	cd ${REPRO_MNT}; mvn package
 
 clean:
-	mvn clean
+	cd ${REPRO_MNT}; mvn clean
 
 #purge: clean
-#	rm -rf $(repro.trim_dir_name_for_module java-dev)/.m2
+#	rm -rf ./.m2
 
