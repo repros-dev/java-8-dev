@@ -1,2 +1,9 @@
+# install Maven
 sudo apt update
 sudo apt -y install maven
+
+# set location the Maven installation
+repro.env MAVEN_HOME /usr/share/maven
+
+# put the Maven .m2 directory under the java-dev dot directory
+repro.atstart 'M2=$(repro.trim_dir_name_for_module java-dev)/.m2; mkdir -p ${M2}; ln -s ${M2} ${HOME}/.m2'

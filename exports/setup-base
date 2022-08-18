@@ -1,2 +1,7 @@
+
+# install the Java 8 JDK
 sudo apt update
 sudo apt -y install openjdk-8-jdk-headless
+
+# set location of the Java 8 runtime (JRE)
+repro.env JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/jre
