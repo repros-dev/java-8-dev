@@ -11,6 +11,7 @@ package:
 clean:
 	cd ${REPRO_MNT}; mvn clean
 
-#purge: clean
-#	rm -rf ./.m2
-
+purge: clean
+	true
+	# Uncomment the next line in Makefile-maven to enable purge of Maven cache
+	# rm -rf ./.m2
