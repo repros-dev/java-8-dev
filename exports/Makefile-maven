@@ -14,4 +14,4 @@ clean:
 purge: clean
 	true
 	# Uncomment the next line in Makefile-maven to enable purge of Maven cache
-	# rm -rf ./.m2
+	# rm -rf ./.m2/repository
